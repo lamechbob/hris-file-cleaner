@@ -23,7 +23,7 @@ This application was created as a scalable, auditable solution to sanitize phone
 ```bash
 # Clone the repo
 $ git clone https://github.com/lamechbob/hris-cleaner.git
-$ cd hris-cleaner
+$ cd hris-file-cleaner
 
 # Set up environment
 $ pip install -r requirements.txt
