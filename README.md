@@ -22,7 +22,7 @@ This application was created as a scalable, auditable solution to sanitize phone
 
 ```bash
 # Clone the repo
-$ git clone https://github.com/lamechbob/hris-cleaner.git
+$ git clone https://github.com/lamechbob/hris-file-cleaner
 $ cd hris-file-cleaner
 
 # Set up environment
