@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/hris-phone-cleaner.iml" filepath="$PROJECT_DIR$/.idea/hris-phone-cleaner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/hris-file-cleaner.iml" filepath="$PROJECT_DIR$/.idea/hris-file-cleaner.iml" />
     </modules>
   </component>
 </project>
