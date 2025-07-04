@@ -24,6 +24,7 @@ from load.save_hris_report import SaveCorrectionReport as scr
 # --------------------
 
 # Step 1: Load the latest HRIS file
+print('-- Extract HRIS  File\n')
 print('Loading latest HRIS file...')
 extractor = ehf()
 hris_data = extractor.load_hris_data()
@@ -35,6 +36,7 @@ print(hris_data.head())
 print('\n')
 
 # Step 3: Run transformations
+print('-- Transform HRIS Data\n')
 print('Running phone number cleanup...')
 transformer = thf(hris_data)
 transformer.run_all()
@@ -42,10 +44,11 @@ print('Phone number cleanup complete.\n')
 
 # Step 4: Display preview of transformed data
 transformed_hris_data = transformer.get_transformed_hris()
-print('Transformed HRIS Data Preview:')
+print('Phone Number Cleanup Data Preview:')
 print(transformed_hris_data.head())
 
 # Step 5: Save altered HRIS file
+print('-- Generate Files and Reports\n')
 print('Saving altered HRIS file...')
 sth_object = sth(transformed_hris_data, extractor.get_file_name())
 sth_object.save_file()
